@@ -1,0 +1,30 @@
+{
+    "BallAgentPlatforms": {
+        "checkpoints": [
+            {
+                "steps": 499990,
+                "file_path": "results\\platformsRes4\\BallAgentPlatforms\\BallAgentPlatforms-499990.onnx",
+                "reward": -0.7333333333333333,
+                "creation_time": 1606652639.6164203
+            },
+            {
+                "steps": 705997,
+                "file_path": "results\\platformsRes4\\BallAgentPlatforms\\BallAgentPlatforms-705997.onnx",
+                "reward": null,
+                "creation_time": 1606652937.5675466
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 705997,
+            "file_path": "results\\platformsRes4\\BallAgentPlatforms.onnx",
+            "reward": null,
+            "creation_time": 1606652937.5675466
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0",
+        "tensorflow_version": "2.3.1"
+    }
+}

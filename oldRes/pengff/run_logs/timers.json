@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1610196447",
+        "python_version": "3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Home\\anaconda3\\envs\\unity_rl\\Scripts\\mlagents-learn config/trainer_config.yaml --run-id=pengff --train",
+        "mlagents_version": "0.22.0",
+        "mlagents_envs_version": "0.22.0",
+        "communication_protocol_version": "1.2.0",
+        "pytorch_version": "1.7.0",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1610196525"
+    },
+    "total": 77.9203676,
+    "count": 1,
+    "self": 0.3094014000000129,
+    "children": {
+        "run_training.setup": {
+            "total": 0.007018900000000272,
+            "count": 1,
+            "self": 0.007018900000000272
+        },
+        "TrainerController.start_learning": {
+            "total": 77.60394729999999,
+            "count": 1,
+            "self": 0.00014039999997805808,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 77.6036179,
+                    "count": 1,
+                    "self": 77.6036179
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00018900000000598993,
+                    "count": 1,
+                    "self": 0.00018900000000598993
+                }
+            }
+        }
+    }
+}

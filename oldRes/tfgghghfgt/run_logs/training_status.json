@@ -1,0 +1,24 @@
+{
+    "BallAgentStage3": {
+        "checkpoints": [
+            {
+                "steps": 53849,
+                "file_path": "results\\tfgghghfgt\\BallAgentStage3\\BallAgentStage3-53849.onnx",
+                "reward": 0.049586776859504134,
+                "creation_time": 1613919649.4218035
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 53849,
+            "file_path": "results\\tfgghghfgt\\BallAgentStage3.onnx",
+            "reward": 0.049586776859504134,
+            "creation_time": 1613919649.4218035
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.1",
+        "tensorflow_version": "2.4.1"
+    }
+}

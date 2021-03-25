@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1610197876",
+        "python_version": "3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Home\\anaconda3\\envs\\unity_rl\\Scripts\\mlagents-learn config/PenguinAgent.yaml --run-id=peng1 --train",
+        "mlagents_version": "0.22.0",
+        "mlagents_envs_version": "0.22.0",
+        "communication_protocol_version": "1.2.0",
+        "pytorch_version": "1.7.0",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1610197949"
+    },
+    "total": 73.63200619999999,
+    "count": 1,
+    "self": 0.3468692999999803,
+    "children": {
+        "run_training.setup": {
+            "total": 0.006528499999999937,
+            "count": 1,
+            "self": 0.006528499999999937
+        },
+        "TrainerController.start_learning": {
+            "total": 73.27860840000001,
+            "count": 1,
+            "self": 0.00018900000000598993,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 73.2782445,
+                    "count": 1,
+                    "self": 73.2782445
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0001749000000046408,
+                    "count": 1,
+                    "self": 0.0001749000000046408
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "3DBall": {
+        "checkpoints": [
+            {
+                "steps": 499965,
+                "file_path": "results\\first_run_3dball\\3DBall\\3DBall-499965.onnx",
+                "reward": 100.00001525878906,
+                "creation_time": 1606045503.5513644
+            },
+            {
+                "steps": 500965,
+                "file_path": "results\\first_run_3dball\\3DBall\\3DBall-500965.onnx",
+                "reward": 100.00001525878906,
+                "creation_time": 1606045503.63444
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500965,
+            "file_path": "results\\first_run_3dball\\3DBall.onnx",
+            "reward": 100.00001525878906,
+            "creation_time": 1606045503.63444
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0",
+        "tensorflow_version": "2.3.1"
+    }
+}

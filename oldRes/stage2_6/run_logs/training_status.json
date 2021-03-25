@@ -1,0 +1,36 @@
+{
+    "BallAgentStage2": {
+        "checkpoints": [
+            {
+                "steps": 499942,
+                "file_path": "results\\stage2_6\\BallAgentStage2\\BallAgentStage2-499942.onnx",
+                "reward": 0.9285714285714286,
+                "creation_time": 1611492163.8917153
+            },
+            {
+                "steps": 999990,
+                "file_path": "results\\stage2_6\\BallAgentStage2\\BallAgentStage2-999990.onnx",
+                "reward": 1.0,
+                "creation_time": 1611492876.0468767
+            },
+            {
+                "steps": 1054764,
+                "file_path": "results\\stage2_6\\BallAgentStage2\\BallAgentStage2-1054764.onnx",
+                "reward": 1.0,
+                "creation_time": 1611492952.2469814
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1054764,
+            "file_path": "results\\stage2_6\\BallAgentStage2.onnx",
+            "reward": 1.0,
+            "creation_time": 1611492952.2469814
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0",
+        "tensorflow_version": "2.3.1"
+    }
+}
